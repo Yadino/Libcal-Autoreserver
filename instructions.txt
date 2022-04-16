@@ -1,0 +1,39 @@
+Guide:
+
+1. install python 2.7:
+https://www.python.org/downloads/release/python-2718/
+choose your operating system, download the file and install
+
+2. install selenium:
+after you installed python open Terminal (on mac) or cmd (on windows) and run:
+pip install selenium
+
+3. check chrome version:
+go to chrome://version on chrome, version should be 84, 85 or 86 most probably.
+(you can update chrome and check again before you proceed)
+
+4. download webdriver:
+https://sites.google.com/a/chromium.org/chromedriver/downloads
+choose your chrome version and download the file matching you Operating system
+
+5. move the downloaded file to the right location:
+(first extract it from the zip file if needed)
+in Mac - put file in /usr/bin
+(then when you run it you have to give permissions to run files from unsigned developers)
+
+on windows - put the file in the same folder as the script (aka libcal-autoreserve.py)
+
+6. Put in your details:
+open libcal-autoreserve.py with a text editor and change the details in the configuration on top to whatever you want; First, your S-number, Nestor password and phone number. Then, your desired booking date and time (follow the descriptions above each parameter for proper formatting)
+
+7. run the script:
+
+on windows - shift + right click -> choose "open cmd here"/"open powershell here"
+			then type: python libcal-autoreserve.py
+			(or whatever the script's file name is)
+on Mac - run Terminal, cd to wherever you put the file
+			(you can put it on the desktop and run: cd Desktop)
+			then type: python libcal-autoreserve.py
+			(or whatever the script's file name is)
+
+Enjoy.
